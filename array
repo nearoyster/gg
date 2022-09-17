@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void){
+    int a[8];
+    a[0] = 30;
+    a[1] = 40;
+    scanf("%d", &a[2]);
+    scanf("%d", &a[3]);
+    printf("%d %d %d %d", a[0], a[1], a[2], a[3]);
+}
