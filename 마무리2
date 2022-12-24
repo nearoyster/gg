@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td{
+            border:1px solid #010408;
+            border-collapse: collapse;
+        }
+        th, td { padding:10px 20px; }
+        th {
+            background-color: rgb(248, 245, 241);
+        }
+        td {
+            background-color: rgba(248, 244, 247, 0.208);
+        }
+    </style>
+    <link rel="stylesheet" href="http://jhbum.pe.kr/web/3w/css/poster.css">
+</head>
+<body>
+    <h1>수습 국원 지원 양식</h1>
+    <table>
+            <tr>
+                <td rowspan="3">개인정보</td>
+                <td>이름</td>
+                <td>        </td>
+            </tr>
+            <tr>
+                <td>학과/학번</td>
+                <td>        </td>
+            </tr>
+            <tr>
+                <td>연락처</td>
+                <td>        </td>
+            </tr>
+            <tr>
+                <td>지원 분야</td>
+                <td colspan="2"></td>
+            </tr>
+    </table>
+</body>
+</html>
