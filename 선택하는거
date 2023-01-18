@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+    <style>
+        .label1 {
+            font-size: 30x;
+        }
+
+        .input1 {
+            width: 300px;
+            height: 50x;
+            font-size: 30px;
+            background-color: rgb(155, 207, 161);
+        }
+
+        .label2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .select1 {
+            width: 600px;
+            height: 50px;
+            font-size: 40px;
+            background-color: rgb(78, 145, 203);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <label class="label1">input태그</label>
+        <input type="text" class="input1">
+    </div>
+    <div>
+        <label class="label2">select태그</label>
+        <select class="select1">
+            <option>선택1</option>
+            <option>선택2</option>
+            <option>선택3</option>
+            <option>선택4</option>
+            <option>선택5</option>
+        </select>
+    </div>
+    
+</body>
+</html>
