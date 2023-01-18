@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>test1</title>
+        <style>
+            div {
+                border: 2px solid black;
+                margin bottom: 30px;
+            }
+
+            .b1 {
+                width: 400px;
+                height: 100px;
+            }
+            .b2 {
+                width: 50%;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="b1"></div>
+        <div class="b2"></div>
+    </body>
+    </html>
