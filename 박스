@@ -24,3 +24,37 @@
         <div class="b2"></div>
     </body>
     </html>
+
+
+
+.....
+
+
+
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>test1</title>
+        <style>
+            div {
+                width: 200px;
+                height: 100px;
+                display: inline-block;
+                margin: 15px;
+                border: 1px solid blue;
+                border-radius: 20px;
+            }
+            .b1{
+                box-shadow: 2px `2px 5px 0px;
+            }
+            .b2{
+                box-shadow: 5px 5px 15px 5px blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="b1"></div>
+        <div class="b2"></div>
+    </body>
+    </html>
