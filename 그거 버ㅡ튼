@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p class="m">
+        <span><a href="test.html" class="s">1번 메뉴</a></span>
+        <span><a href="test1.html" class="n">1번 메뉴</a></span>
+        <span><a href="test2.html" class="n">1번 메뉴</a></span>
+        <span><a href="test3.html" class="n">1번 메뉴</a></span>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="s2">1번 메뉴입니다.</span>
+</body>
+</html>
+......
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p class="m">
+        <span><a href="test.html" class="n">1번 메뉴</a></span>
+        <span><a href="test1.html" class="s">2번 메뉴</a></span>
+        <span><a href="test2.html" class="n">3번 메뉴</a></span>
+        <span><a href="test3.html" class="n">4번 메뉴</a></span>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="s2">2번 메뉴입니다.</span>
+</body>
+</html>
+
+.......
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p class="m">
+        <span><a href="test.html" class="n">1번 메뉴</a></span>
+        <span><a href="test1.html" class="n">2번 메뉴</a></span>
+        <span><a href="test2.html" class="s">3번 메뉴</a></span>
+        <span><a href="test3.html" class="n">4번 메뉴</a></span>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="s2">3번 메뉴입니다.</span>
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p class="m">
+        <span><a href="test.html" class="n">1번 메뉴</a></span>
+        <span><a href="test1.html" class="n">2번 메뉴</a></span>
+        <span><a href="test2.html" class="n">3번 메뉴</a></span>
+        <span><a href="test3.html" class="s">4번 메뉴</a></span>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span class="s2">4번 메뉴입니다.</span>
+</body>
+</html>
