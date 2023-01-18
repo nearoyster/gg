@@ -58,3 +58,42 @@
         <div class="b2"></div>
     </body>
     </html>
+
+
+
+....
+
+
+
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>test1</title>
+        <style>
+            div {
+                width: 200px;
+                height: 100px;
+                display: inline-block;
+                margin: 15px;
+                border: 1px solid blue;
+                border-radius: 20px;
+                border-width: 5px;
+            }
+            #b1{
+                border-style: solid;
+            }
+            #b2{
+                border-style: dotted;
+            }
+            #b3 {
+                border-style: dashed;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="b1">실선</div>
+        <div id="b2">점선</div>
+        <div id="b3">점선</div>
+    </body>
+    </html>
