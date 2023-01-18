@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .p1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            background-color: black;
+            color: aliceblue;
+
+        }
+
+        .s1 {
+            font-size: 15px;
+            color: red;
+
+        }
+        .s2 {
+            color: rgb(171, 1, 171);
+        }
+        .s3 {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <html>
+        <p class="p1">하루 일과</p>
+
+        <span class="s1">2023년 1월 7일</span><span class="s2">날씨 맑음</span>
+        <p>오늘은 <span class="s3">즐거운 하루</span>였다</p>
+    </html>
+    
+</body>
+</html>
