@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        div {
+            width: 200px;
+            height: 100px;
+            display: inline-block;
+            border: 1px solid #222;
+        }
+
+        #m1 {
+            margin:50px
+        }
+
+        #m2{
+            margin: 30px 50px;
+        }
+
+        #m3{
+            margin: 30px 20px 50px;
+        }
+        
+
+        #m4{
+            margin: 30px 50px 30px 50px;
+        }
+
+        #m5{
+            margin-right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="m1"></div>
+    <div id="m2"></div>
+    <div id="m3"></div>
+    <div id="m4"></div>
+    <div id="m5"></div>
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1 {
+            display: inline-block;
+            border: 1px solid #000;
+        }
+        #pad {
+            padding: 20px 30px 40px 50px;
+        }
+        #pad1 {
+            padding: 20px 30px;
+        }
+        #pad2 {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>레드향</h1>
+    <h1 id="pad">레드향
+    </h1>
+    <h1 id="pad1">레드향
+    </h1>
+    <h1 id="pad2">레드향
+    </h1>
+</body>
+</html>
+
+........
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav ul li {
+        display: inline-block;
+
+        padding: 20px;
+        margin: 0 20px;
+        border: 1px solid #222;
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        img {
+            float: left;
+            margin-right: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="http://jhbum.pe.kr/web/7w/images/bear.jpg">
+    <p>Ex et aduousucing voluptate aliqua cupidatt nulla. Laboris est</p>
+</body>
+</html>
+
+......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #b1 {
+            background: #04109a;
+            float: left;
+        }
+        #b2 {
+            background: #ff94ff;
+            float: left;
+        }
+        #b3 {
+            background: #cb3987;
+        }
+        #b4 {
+            background: #b41608;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="b1">박스 1</div>
+    <div id="b2">박스 2</div>
+    <div id="b3">박스 3</div>
+    <div id="b4">박스 4</div>
+
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div id="container">
+        <header id ="header">
+            <h1>사이트 제목</h1>
+        </header>
+        <aside id="sidebar">
+            <h2>사이드바</h2>
+        </aside>
+        <aside id="sidebar1">
+            <h2>사이드바</h2>
+        </aside>
+        <section id="contents">
+            <h2>본문</h2>
+        </section>
+        <footer id="footer">
+            <h2>푸터</h2>
+        </footer>
+    </div>
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div id="container">
+        <header id ="header">
+            <h1></h1>
+        </header>
+        <header id ="header1">
+            <h1></h1>
+        </header>
+        <section id="contents">
+            <h2></h2>
+        </section>
+        <footer id="footer">
+            <h2></h2>
+        </footer>
+        <footer id="footer1">
+            <h2></h2>
+        </footer>
+</body>
+</html>
