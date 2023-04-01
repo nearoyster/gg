@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+    </style>
+</head>
+<body>
+    
+    <script>
+
+        for (var i = 0; i < 10; i++){
+
+            var a = "<div style = 'width:" + 100  + "px;";
+            var b = "height: 100px; background:#ff0000; position: absolute; left: "+ i * i + "cm;'></div>";
+            var c = a + b;
+            
+            document.write(c);
+            
+        }
+
+
+    </script>
+    
+    
+</body>
+</html>
+
+
+......
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        p{
+            font-size: 20px;
+        }
+        strong {
+            font-size: 40px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인");
+
+        switch(session) {
+            case "1": document.write("<p>마케팅 세션은 <strong>201호</strong>에서 진행됩니다.")
+                break;
+            case "2": document.write("<p>개발 세션은 <strong>203호</strong>에서 진행됩니다.")
+                break;
+            case "3": document.write("<p>디자인 세션은 <strong>205호</strong>에서 진행됩니다.")
+                break;
+            default: alert("잘못 입력했습니다."); 
+        }
+    </script>
+    
+</body>
+</html>
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        h1 {
+            color : pink;
+            font-size: 200px;
+        }
+        h2 {
+            color: blueviolet;
+            font-size: 200px;
+        }
+        h3 {
+            color: violet;
+            font-size: 200px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var session = prompt();
+
+        if(session == "홍길동"){
+            document.write("<h1>홍길동</h1>")
+        }
+        else if(session == "홍길남"){
+            document.write("<h2>홍길남</h2>")
+        }
+        else if(session == "홍길순"){
+            document.write("<h3>홍길순</h3>")
+        }
+        else{
+            alert("잘못 입력하셨습니다.")
+        }
+    </script>
+    
+</body>
+</html>
+
+.......
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var a = prompt("숫자를 입력하세요.", "10");
+        var msg = "";
+
+        if (a !== null){
+            var f = 1;
+            var i = 1;
+
+
+            while(i <= a) {
+                f *= i;
+                i++;
+            }
+            msg = a + "! = " + f;
+        }
+        else
+            msg = "값을 입력하지 않았습니다."
+
+
+        document.write(msg);
+    </script>
+    
+</body>
+</html>
+
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .b {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var i = 0;
+
+        do{
+
+            var a = "<div style = 'width:" + 10 * i * i  + "px;";
+            var b = "background:#ff0000; position: absolute; height: "+ 10 * i * i + "px; left: "+ 2* i * i + "cm;'></div>";
+            i++;
+            var c = a + b;
+            
+            document.write(c);
+            
+        }while (i < 10)
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+.......
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var a = prompt()
+        var i, j;
+
+        for (i = a; i <= 9; i++){
+            document.write("<div>");
+            document.write("<h3>" + i + "단</h3>");
+            for (j=1; j <=9; j++){
+                document.write(i + "X" + j + "=" + i*j + "<br>");
+
+            }
+            break;
+            document.write("</div>");
+        }
+    </script>
+    
+</body>
+</html>
