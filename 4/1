@@ -208,3 +208,26 @@
     
 </body>
 </html>
+
+.......
+
+</head>
+<body>
+    <script>
+        var a = prompt()
+        var i, j;
+
+        for (i = a; i <= 100; i++){
+            document.write("<div>");
+            document.write("<h3>" + i + "단</h3>");
+            for (j=1; j <=100; j++){
+                document.write(i + "X" + j + "=" + i*j + "<br>");
+
+            }
+            break;
+            document.write("</div>");
+        }
+    </script>
+    
+</body>
+</html>
