@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <div id="result"></div>
+
+    <script>
+        var changeColor = document.querySelector("#divtag");
+        changeColor.onclick = changeColor;
+        cnt = 0;
+
+        function changeColor() {
+            cnt = cnt + 1;
+            divtag = document.querySelector("#divtag");
+            switch (cnt) {
+                case 1:
+                    divtag.style = "width:500px'height:500px;background-color: red"
+                    break;
+                case 2:
+                    divtag.style = "width:500px'height:500px;background-color: orange"
+                    break;
+                case 3:
+                    divtag.style = "width:500px'height:500px;background-color: yellow"
+                    break;
+                case 4:
+                    divtag.style = "width:500px'height:500px;background-color: green"
+                    break;
+                case 5:
+                    divtag.style = "width:500px'height:500px;background-color: blue"
+                    break;
+                case 6:
+                    divtag.style = "width:500px'height:500px;background-color: darkblue"
+                    break;
+                case 7:
+                    divtag.style = "width:500px'height:500px;background-color: purple"
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
