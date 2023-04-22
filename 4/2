@@ -42,3 +42,114 @@
     </script>
 </body>
 </html>
+...............
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #div1 {
+            width: 100%;
+        }
+        .div2 {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+    </div>
+
+    <script>
+        let i;
+        let div1 = document.querySelector('#div1');
+        let divArray = new Array(10);
+        for (i = 0; i < divArray.length; i++) {
+            divArray[i] = new Array(10);
+            for (let j = 0; j < divArray[i].length; j++) {
+                if(i % 2 == 0){
+                if (j % 2 == 0){
+                    divArray[i][j] = "<div class='div2' style='";
+                    marginleft = 20;
+                    divArray[i][j] = divArray[i][j] + "width:40px; height: 40px; border: 5px solid #ff0fff; background-color:#ff0000; margin-left:" + marginleft + "px;'>";
+                    divArray[i][j] = divArray[i][j] + "</div>";
+                }
+                else {
+                    divArray[i][j] = "<div class='div2' style='";
+                    marginleft = 20;
+                    divArray[i][j] = divArray[i][j] + "width:40px; height: 40px; border: 5px solid #ff0fff; background-color:#00ff00; margin-left:" + marginleft + "px;'>";
+                    divArray[i][j] = divArray[i][j] + "</div>";
+                }
+            }
+            else{
+                divArray[i][j] = "<div class='div2' style='";
+                marginleft = 20;
+                divArray[i][j] = divArray[i][j] + "width:40px; height: 40px; border: 5px solid #ff0fff; background-color:#0000ff; margin-left:" + marginleft + "px;'>";
+                divArray[i][j] = divArray[i][j] + "</div>";
+            }
+                }
+            }
+
+        for (i = 0; i < divArray.length; i++) {
+            for (let j = 0; j < divArray[i].length; j++){
+            div1.innerHTML = div1.innerHTML + divArray[i][j];
+        }
+        div1.innerHTML = div1.innerHTML + "<div class='div3'></div>"
+    }
+    </script>
+</body>
+</html>
+
+...............
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #div1 {
+            width: 100%;
+        }
+        .div2 {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+    </div>
+
+    <script>
+        let i;
+        let div1 = document.querySelector('#div1');
+        let divArray = new Array(10);
+        for (i = 0; i < divArray.length; i++) {
+            if(i % 2 == 0){
+                divArray[i] = "<div class='div2' style='";
+                marginleft = 50;
+                divArray[i] = divArray[i] + "width:40px; height: 40px; border: 1px solid #000000; background-color:#ff0000; margin-left:" + marginleft + "px;'>";
+                divArray[i] = divArray[i] + "</div>";
+            }
+            
+            else {
+                divArray[i] = "<div class='div2' style='";
+                marginleft =  50 ;
+                divArray[i] = divArray[i] + " width: 40px; height: 40px; border: 0px solid #000000; background-color:#ffffff  ; margin-left:" + marginleft + "px;'>";
+                divArray[i] = divArray[i] + "</div>";
+            }
+        }
+
+        for (i = 0; i < divArray.length; i++) {
+            div1.innerHTML = div1.innerHTML + divArray[i];
+        }
+    </script>
+</body>
+</html>
